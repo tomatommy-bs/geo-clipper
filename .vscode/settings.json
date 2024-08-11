@@ -1,0 +1,72 @@
+{
+  "eslint.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.run": "onSave",
+  // gitmoji
+  "gitmoji.outputType": "emoji", // 文字列形式で絵文字を出力する
+  "gitmoji.onlyUseCustomEmoji": true, // カスタマイズした絵文字のみ表示する
+  "gitmoji.addCustomEmoji": [
+    // 絵文字のカスタマイズ
+    {
+      "emoji": "✨ feat: ",
+      "description": "新しい機能やファイルを追加"
+    },
+    {
+      "emoji": "🐛 bugfix: ",
+      "description": "バグ修正"
+    },
+    {
+      "emoji": "♻️ refactor:",
+      "description": "リファクタリング"
+    },
+    {
+      "emoji": "📚 docs: ",
+      "description": "ドキュメントの追加・変更"
+    },
+    {
+      "emoji": "⚡️ perf: ",
+      "description": "パフォーマンス改善"
+    },
+    {
+      "emoji": "🧪 test: ",
+      "description": "テストコードの追加・変更"
+    },
+    {
+      "emoji": "📦 move: ",
+      "description": "ファイルやディレクトリの移動・名前変更"
+    },
+    {
+      "emoji": "⚰️ remove:",
+      "description": "削除"
+    },
+    {
+      "emoji": "✅ style: ",
+      "description": "自動整形"
+    },
+    {
+      "emoji": "⏪️ revert: ",
+      "description": "リバート"
+    },
+    {
+      "emoji": "🔒 security: ",
+      "description": "セキュリティ関連の変更"
+    },
+    {
+      "emoji": "🚀 release: ",
+      "description": "リリース作業"
+    },
+    {
+      "emoji": "chore: ",
+      "description": "ビルドで自動生成されたものなど、その他の変更"
+    },
+    {
+      "emoji": "🚧 wip: ",
+      "description": "作業中の commit (非推奨)"
+    }
+  ],
+  "cSpell.words": ["daisyui", "partykit", "tailwindcss"]
+}
